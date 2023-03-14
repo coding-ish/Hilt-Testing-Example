@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val tax = Tax()
-        val netIncome = tax.calculateNetIncome(100.0,0.1)
-        val netTax = tax.calculateTax(100.0,0.1)
+        val netIncome = tax.calculateIncome(100.0,0.1)
+        val netTax = tax.calcTax(100.0,0.1)
 
         println(netIncome)
         println(netTax)

@@ -2,11 +2,11 @@ package com.atilsamancioglu.testintroduction
 
 class Tax {
 
-    fun calculateTax(grossIncome: Double, taxRate: Double): Double {
-        return grossIncome * taxRate
+    fun calcTax(gIncome: Double, tax: Double): Double{
+        return gIncome * tax
     }
 
-    fun calculateNetIncome(grossIncome: Double, taxRate: Double): Double {
-        return grossIncome - (grossIncome * taxRate)
+    fun calculateIncome(gIncome: Double, tax: Double): Double{
+        return gIncome - gIncome * tax
     }
 }
