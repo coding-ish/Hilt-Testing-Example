@@ -16,3 +16,5 @@
 - Split up app into layers, such as View Model or a Composable layer
 - Stick to the [Interface Segregation Principle!](https://en.wikipedia.org/wiki/Interface_segregation_principle) TL;DR: Split up your code into various "layers" that deal with a specific functionality of your program. Ex: A printer program that has a **Separate class for Stapling and Printing**
 
+https://truth.dev/ - testing assertions
+TDD - Test Driven Development: Test, Write Code, Test, Write More Code, part by part. If works, great! Proceed to next module. Otherwise, fix code and test again. Think of specific function, then write test for that function. Use only 1 assertion per test, unless it is unavoidable!
